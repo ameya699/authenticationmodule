@@ -4,6 +4,6 @@ const userRouter = express.Router();
 
 userRouter.post("/signup", signup);
 
-userRouter.post("/login", signin);
+userRouter.post("/signin", signin);
 
 module.exports = userRouter;
